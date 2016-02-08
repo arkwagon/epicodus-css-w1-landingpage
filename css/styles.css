@@ -5,3 +5,94 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+.dogBackground {
+  background-image: url("../img/dogBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+
+.navigation {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  float: right;
+  padding: 20px;
+}
+
+.navigation a, .navigation a:hover, .navigation a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+  padding-left: 25px;
+}
+
+.logo a, .logo a:hover, .logo a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.fullCaption {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  padding-top: 185px;
+}
+
+hr {
+  width: 1000px;
+}
+
+.captionTop {
+  font-size: 70px;
+}
+
+.captionBottom {
+  font-size: 127px;
+}
+
+.freeTrial {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  font-size: 18px;
+  text-align: center;
+  background-color: #F08467;
+  border: 2px solid #F08467;
+  border-radius: 10px;
+  min-width: 250px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+.freeTrial a, .freeTrial a:hover, .freeTrial a:visited {
+  text-decoration: none;
+  color: white;
+}
+.trialButton {
+  position: absolute;
+  left: 42%;
+  top: 80%;
+}
+.ps {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+}
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid red;
+}
